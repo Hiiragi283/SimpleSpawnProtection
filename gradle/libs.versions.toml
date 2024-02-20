@@ -1,0 +1,25 @@
+[versions]
+forge = "36.2.34"
+forge-gradle = "6.+"
+forge-range = "[36,)"
+loader-range = "[36,)"
+mappings-channel = "official"
+mappings-version = "1.16.5"
+mc = "1.16.5"
+mc-forge = "1.16.5-36.2.34"
+mc-range = "[1.16,1.17)"
+mod-authors = "Hiiragi283"
+mod-description = "Prevent mob spawn on blocks tagged with \"ssp:disable_spawn\""
+mod-group = "io.github.hiiragi283"
+mod-id = "ssp"
+mod-license = "MIT-2.0"
+mod-name = "Simple Spawn Protection"
+mod-version = "1.0.0"
+
+[libraries]
+minecraft = { group = "net.minecraftforge", name = "forge", version.ref = "mc-forge" }
+
+[bundles]
+
+[plugins]
+forge-gradle = { id = "net.minecraftforge.gradle", version.ref = "forge-gradle" }
